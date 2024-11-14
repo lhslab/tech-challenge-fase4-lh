@@ -66,10 +66,7 @@ def analise_video(video_path, output_path):
     print(f"Total de frames analisados: {cont_frames_analisados}")
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-#input_video_path = os.path.join(script_dir, 'Unlocking Facial Recognition_ Diverse Activities Analysis.mp4') 
-#output_video_path = os.path.join(script_dir, 'tc_output_video2.mp4')
-
-input_video_path = os.path.join(script_dir, 'video_teste_henrique.mp4') 
-output_video_path = os.path.join(script_dir, 'output_video_teste_henrique.mp4')
+input_video_path = os.path.join(script_dir, 'Unlocking Facial Recognition_ Diverse Activities Analysis.mp4') 
+output_video_path = os.path.join(script_dir, 'tc_output_video.mp4')
 
 analise_video(input_video_path, output_video_path)
